@@ -43,7 +43,7 @@ fun getPlayerChoice(): Int {
 }
 
 fun getComputerChoice(): Int {
-    return Random.nextInt(1, 4) // Случайное значение от 1 до 3 включительно
+    return Random.nextInt(1, 4)
 }
 
 fun getChoiceName(choice: Int): String {
